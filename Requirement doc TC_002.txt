@@ -1,0 +1,91 @@
+# Test Case: Air Canada Event Registration
+
+## Test Case ID
+REG_001
+
+## Test Case Title
+Verify user can successfully register for an Air Canada event
+
+## Description
+This test case verifies that a user can successfully complete the Air Canada event registration process by filling in all required fields and submitting the registration form.
+
+## Prerequisites
+1. Air Canada event registration page is accessible
+2. User has valid email address
+3. User has event details (dates, passenger count, etc.)
+
+## Test Data
+- Industry Type: [Specific industry]
+- Title: [Mr./Ms./Dr.]
+- First Name: John
+- Last Name: Doe
+- Email: john.doe@example.com
+- Mailing Address: 123 Test Street
+- Phone: +1-555-0123
+- Event Name: [Event name]
+- Event City: [City name]
+- Start Date: [DD/MM/YYYY]
+- End Date: [DD/MM/YYYY]
+- Number of Passengers: 2
+
+## Test Steps
+1. Navigate to Air Canada event registration page
+2. Click on "Register Your Event" button
+3. Switch to new tab
+4. Select industry type from "Industry" dropdown
+5. Select title from "Title" dropdown
+6. Enter First Name
+7. Enter Last Name
+8. Enter Email address
+9. Enter Mailing address
+10. Enter Phone number
+11. Enter Event name
+12. Select Event city from dropdown
+13. Click on Start Date calendar
+14. Select start date
+15. Click on End Date calendar
+16. Select end date
+17. Enter number of passengers
+18. Check Terms and Conditions checkbox
+19. Click "Continue" button
+20. Click "Confirm Registration" button
+21. Click "Done" button
+
+## Expected Results
+1. User is redirected to registration form after clicking "Register Your Event"
+2. New tab opens with the registration form
+3. All dropdown options are available and selectable
+4. All fields accept valid input
+5. Calendar options work for both start and end dates
+6. Form submits successfully after clicking "Continue"
+7. Registration is confirmed after clicking "Confirm Registration"
+8. Registration process completes after clicking "Done"
+
+## Actual Results
+[To be filled during test execution]
+
+## Status
+☐ Not Executed
+☐ Passed
+☐ Failed
+
+## Notes/Comments
+- All mandatory fields should be marked with an asterisk (*)
+- Form should validate email format
+- Phone number should accept international format
+- Date selection should prevent end date being before start date
+- Terms and Conditions must be checked to proceed
+
+## Test Environment
+- Browser: Chrome (latest version)
+- Operating System: Windows
+- Screen Resolution: 1920x1080
+
+## Created By
+Test Engineer
+
+## Creation Date
+October 30, 2025
+
+## Last Updated
+October 30, 2025
