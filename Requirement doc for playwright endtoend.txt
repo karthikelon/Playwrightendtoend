@@ -1,7 +1,7 @@
 # Test Case: Air Canada Event Registration
 
 ## Test Case ID
-REG_001
+TC_002
 
 ## Test Case Title
 Verify user can successfully register for an Air Canada event
@@ -85,7 +85,8 @@ This test case verifies that a user can successfully complete the Air Canada eve
 Test Engineer
 
 ## Creation Date
-October 30, 2025
+November 2, 2025
 
 ## Last Updated
-October 30, 2025
+
+November 2, 2025
